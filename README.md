@@ -4,7 +4,8 @@ Collection of classic concepts, codes and solutions which might be helpful for c
 #### How to make use
 
 There are brief descriptions given for each of the problems. Read it carefully and try to solve the problem by yourself first. If failed then try some more.
-Solutions and helpful links are given at the end of the respective doc.
+
+Solutions and helpful links are given at the end of the respective doc to help you.
 
 #### Contribution
 
@@ -13,4 +14,4 @@ Feel free to fix any bugs or add solutions for different languages which are mis
 
 ### List of the problems
 
-- [Balanced brackets / Parentheses Balance](./Data Structure/Parentheses-balance)
+- [Balanced brackets/Parentheses Balance](./Data%20Structure/Parentheses-balance)
