@@ -8,19 +8,23 @@ def matches(top, symbol):
     return openingSymbols.index(top) == closingSymbols.index(symbol)
 
 
-def checkBalance(input):
+def checkBalance(expression):
     """ checks each symbols to match with its closing symbol using stack """
     symbolstack = Stack()
+    balanced = True
 
-    for symbol in input:
+    for symbol in expression:
         if symbol in ["(","{","["]:
             symbolstack.push(symbol)
         else:
-            if matches(symbolstack.peek(), symbol):
+            #If a closing symbol appears first of an expression or previous pairs already matched it will see the stack empty
+            if not symbolstack.isEmpty() and matches(symbolstack.peek(), symbol):
                 symbolstack.pop()
-            else: break;
-
-    return symbolstack.isEmpty() #if the stack is empty then all openingSymbols matches with closingSymbols
+            else:
+                balanced = False
+                break;
+    
+    return balanced and symbolstack.isEmpty() #if the stack is empty then all openingSymbols matches with closingSymbols
 
 #Testing the code with some data
 if __name__ == '__main__':
