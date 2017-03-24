@@ -23,7 +23,8 @@ You can try the correctness of your solution at the following links:
 - [UVa: 673 - Parentheses Balance](https://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=614)
 
 ##### Solution:
-- [Python Solution](/python-solution)
+- [Python Solution](./python-solution)
+- [C++ Solution](./c++-solution)
 
 ##### Video Tutorial:
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=IhJGJG-9Dx8
