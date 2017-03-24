@@ -1,6 +1,6 @@
 ## Balanced brackets / Parentheses balance
 
-##### problem description
+#### problem description
 
 ```
 A bracket is considered to be any one of the following characters: (, ), {, }, [, or ].
