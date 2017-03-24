@@ -1,11 +1,15 @@
-## Parentheses balance
+## Balanced brackets / Parentheses balance
 
 ##### problem description
 
 ```
-A bracket/parenthesis is considered to be any one of the following characters: (, ), {, }, [, or ].
-Given an expression as string comprising of opening and closing characters of parentheses - (), curly braces - {} and square brackets - [], we need to check whether symbols are balanced or not.
-Balanced parentheses means that each opening symbol has a corresponding closing symbol and the pairs of parentheses are properly nested.
+A bracket is considered to be any one of the following characters: (, ), {, }, [, or ].
+Given an expression as string comprising of opening and closing characters of:
+parentheses - ()
+curly braces - {} and
+square brackets - []
+We need to check whether symbols are balanced or not.
+Balanced brackets means that each opening symbol has a corresponding closing symbol and the pairs of brackets are properly nested.
 For example, the program should print true for expressions = “[()]{}{[()()]()}” and false for expression = “[(])”
 ```
 
@@ -20,3 +24,8 @@ You can try the correctness of your solution at the following links:
 
 ##### Solution:
 - [Python Solution](/python-solution)
+
+##### Video Tutorial:
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=IhJGJG-9Dx8
+" target="_blank"><img src="http://img.youtube.com/vi/IhJGJG-9Dx8/0.jpg"
+alt="Data Structures: Balanced Parentheses in Expression (youtube)" width="640" height="480" border="10" /></a>
