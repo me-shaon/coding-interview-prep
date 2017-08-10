@@ -15,6 +15,7 @@ Feel free to fix any bugs or add solutions for different languages which are mis
 ### List of the problems
 
 - [Balanced brackets/Parentheses Balance](./Data%20Structure/Parentheses-balance)
+- [Find Maximum element in stack](./Data%20Structure/Max-element-in-Stack)
 
 
 ### Sites to Practice
